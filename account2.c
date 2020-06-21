@@ -1,0 +1,21 @@
+FILE*v_p;
+v_p=fopen(name,"a+");
+if(!v_p)
+{
+    printf("Cannot open file.\n");
+    exit(1);
+}
+fscanf(v_p,"%s",ac.fname);
+printf("%s",ac.fname);
+fscanf(v_p,"%s",ac.name);
+printf("%s",ac.name);
+fscanf(v_p,"%s",ac.sex);
+printf("%s",ac.sex);
+fscanf(v_p,"%s",ac.DOB);
+printf("%s",ac.DOB);
+fscanf(v_p,"%s",ac.Bg);
+printf("%s",ac.Bg);
+fscanf(v_p,"%s",ac.pass);
+printf("%s",ac.pass);
+fscanf(v_p,"%s",ac.age);
+printf("%s",ac.age);
